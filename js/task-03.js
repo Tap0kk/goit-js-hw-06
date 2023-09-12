@@ -27,5 +27,8 @@ function createMarkup(arr) {
 createMarkup(images);
 
 document.querySelector("body").style.backgroundColor = "#EBECF0";
-const inputRef = document.getElementById("validation-input");
-inputRef.addEventListener("blur", onBlurBorderColor);
+document.querySelector(".gallery").style.display = "flex";
+document.querySelector(".gallery").style.gap = "50px";
+document.querySelector(".gallery").style.justifuContent = "center";
+document.querySelector(".item").style.listStyleType = "none";
+document.querySelector(".item").style.border = "1px solid rgb(172, 158, 158)";
